@@ -44,7 +44,7 @@ export default class Statue extends React.Component {
         width="626"
         height="1698"
         style={{
-          transform: `perspective(5px) translate3d(900px, 700px, 0px)`,
+          transform: `perspective(5px) translate3d(60vw, 700px, 0px)`,
           opacity: fromCenter.x < 0 ? 0.4 : 0
         }}
       />
